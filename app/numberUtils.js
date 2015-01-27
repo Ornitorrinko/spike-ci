@@ -6,7 +6,7 @@ Number.prototype.format = function(n, x, s, c) {
 };
 
 Number.prototype.toCents = function(){
-	return this * 1000;
+	return this * 100;
 };
 
 Number.prototype.toDecimal = function(){
