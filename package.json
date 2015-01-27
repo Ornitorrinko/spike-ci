@@ -1,0 +1,23 @@
+{
+  "name": "spike-ci",
+  "version": "0.0.1",
+  "author": "Ornitorrinko",
+  "dependencies": {
+    "q": "1.0.0",
+    "underscore": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "chai": "1.9.1",
+    "grunt": "~0.4.5",
+    "grunt-mocha-test": "^0.11.0",
+    "mocha": "1.20.1",
+    "sinon": "1.10.2",
+    "sinon-chai": "2.5.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
