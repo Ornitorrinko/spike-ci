@@ -1,7 +1,8 @@
-var expect = require("chai").expect
-	, utils = require("../app/stringUtils");
+var expect = require("chai").expect;
 
 describe("StringUtils", function(){
+	
+	require("../app/stringUtils");
 
 	it("#alphanumeric", function(){
 		var token = "B6512D10-4C77-4E58-8611-438F1818DC9B"
